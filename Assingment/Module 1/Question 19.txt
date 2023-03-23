@@ -1,0 +1,29 @@
+Question 19
+
+HTML is a markup language that was used to build the world's first webpage. Ever since this webpage was created, there have been a lot of modifications and variations done in the HTML language, such as adding the concept of error handling, addition of new features such as a table, etc., because of which XHTML came into the picture.
+
+Both languages are used to build web and Android applications. However both languages are the two sides of the same coin, but there are some major differences between the two.
+
+HTML stands for Hypertext Markup Language, whereas XHTML stands for Extensible Hypertext Markup Language. It is an extension of HTML and is stricter and more structured compared to HTML.
+
+* HTML :
+
+1. HTML is an SGML-based language. That is, it defines the standard for generalizing the markup languages for documents. SGML stands for Standard Generalized Markup Language.
+
+2. HTML is not a case-sensitive language.
+
+3. HTML empty elements do not require a closing tag at the end, not even a "/" symbol to signify the end of the tag.
+
+4. The tags and attributes in HTML can be specified either in lowercase or uppercase since it is not case-sensitive.
+
+5. The HTML document requires a minimum of four tags to create an HTML page that is <html>, <head>, <title>, and <body>. The <!DOCTYPE> declaration is not necessary for HTML.
+
+6. Some HTML elements may function properly without a closing tag.
+
+7. Some elements in HTML may be improperly nested; that is, they do not need to be closed in the order in which they are opened.
+
+8. It is not mandatory to put quotes while using the attributes in HTML.
+
+9. It allows attribute minimization, where boolean attributes can omit their values. For example, "checked".
+
+10. The webpage is displayed even if the HTML document has some errors in it.

@@ -1,0 +1,42 @@
+Question 2
+----------
+
+-> HTML tags are what defines where an HTML element starts and where it ends. 
+
+->There is usually an opening bracket followed by the element’s name and, finally, a closing bracket.
+
+->In most cases, there is always a start tag and an end tag enclosing an element.
+
+->Nevertheless, that is not the case for all elements.
+
+->As far as HTML is concerned, there are several types of a tag. 
+
+->The first one is the start tag. 
+
+->It contains two opposite angle brackets. 
+
+Examples include:
+-----------------
+
+<title>
+<p>
+<b>
+The other one is the end tag. The similarity to the start tag, it has angle brackets. However, there is a forward slash after the first angle bracket. Examples of the end tags corresponding to the start tags above are as follows.
+</title>
+</p>
+</b>
+
+-> In simple words, an HTML attribute is what modifies an HTML element. 
+
+-> It is usually in the form of unique words that one inserts inside the opening tag. 
+
+->They control the behavior of the element that follows.
+
+->Every tag has two sections. 
+The first one is usually the name of the attribute, while the other one is its value. 
+
+->The two are usually separated by an equals sign (=). 
+
+->Attributes are inside the start tag of that particular element that needs modification.
+
+<element attribute="value">element content</element> 

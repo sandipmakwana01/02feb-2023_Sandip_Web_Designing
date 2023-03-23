@@ -1,0 +1,8 @@
+Question 5
+-----------
+
+-> There are three types of lists in HTML:
+
+    Unordered list or Bulleted list (ul)
+    Ordered list or Numbered list (ol)
+    Description list or Definition list (dl)

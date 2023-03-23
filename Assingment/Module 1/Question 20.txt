@@ -1,0 +1,5 @@
+Question 20
+
+Q-20
+
+Logical tags are also known as structural tags that describe the behavior, nature of the content for the enclosed text. On the page, they present the functions of text. Whereas physical tags define the way a text should be displayed in the browser, controlling their physical characteristics.

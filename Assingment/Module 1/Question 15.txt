@@ -1,0 +1,17 @@
+Question 15
+
+If you’d like to set an image as the background of a web page or an HTML element, rather than simply inserting the image onto the page, you’ll need to use the CSS background-image property. This CSS property replaced the background-image attribute in previous versions of HTML. It's much more flexible and predictable than the HTML attribute — and still easy to use.
+
+To set the value of background-image, you have to use the following syntax: url(' ');
+
+To start, let’s say you want to set an image as the background of the entire page. In this case, you would apply CSS to the body element. Using a CSS selector, you can define the background-image property in the head section of your HTML file or in an external stylesheet. 
+
+You can use the background-repeat property and set it to no-repeat.
+
+You’ve solved the repeating problem, but now you have a lot of extra whitespace below and to the right of the image. To ensure the background image covers the entire body element — or, in other words, takes up the entire browser window — you can use the background-size property and set it to cover. Then, to prevent the image from warping its dimensions, use the background-attachment property and set it to fixed. That way, the image will keep its original proportions.
+
+How to Insert a Background Image on an HTML Element :
+
+You can also set an image as the background of an HTML element rather than the entire web page.
+
+For example, you could place HTML elements inside a div, then target the div with the CSS properties we used above. One difference is that instead of setting the background-size property to cover, we’re going to set it to 100% 100%. That means the image will stretch horizontally and vertically as needed to fit the entire div element, without retaining its original dimensions.
