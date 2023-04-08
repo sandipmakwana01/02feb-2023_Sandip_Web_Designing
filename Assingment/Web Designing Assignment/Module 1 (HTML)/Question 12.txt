@@ -1,0 +1,25 @@
+Question 12
+
+	HTML Iframe is used to display a nested webpage (a webpage within a webpage). The HTML <iframe> tag defines an inline frame, hence it is also called as an Inline frame.
+
+	An HTML iframe embeds another document within the current HTML document in the rectangular region.
+
+Iframe Syntax :
+
+An HTML iframe is defined with the <iframe> tag:
+
+<iframe src="URL"></iframe>  
+
+Here, "src" attribute specifies the web address (URL) of the inline frame page.
+
+Set Width and Height of iframe :
+
+	You can set the width and height of iframe by using "width" and "height" attributes. By default, the attributes values are specified in pixels but you can also set them in percent. i.e. 50%, 60% etc.
+
+Remove the border of iframe :
+
+	By default, an iframe contains a border around it. You can remove the border by using <style> attribute and CSS border property.
+
+Iframe Target for a link :
+
+You can set a target frame for a link by using iframe. Your specified target attribute of the link must refer to the name attribute of the iframe.

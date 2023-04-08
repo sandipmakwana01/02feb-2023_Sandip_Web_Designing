@@ -1,0 +1,5 @@
+Question 18
+
+A Scalable Vector Graphic (SVG) is a unique type of image format. Unlike other varieties, SVGs don’t rely on unique pixels to make up the images you see. Instead, they use ‘vector’ data.
+
+By using SVGs, you get images that can scale up to any resolution, which comes in handy for web design among plenty of other use cases.

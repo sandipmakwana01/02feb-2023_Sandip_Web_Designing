@@ -1,0 +1,13 @@
+Question 14
+
+The HTML <span> tag is used for grouping and applying styles to inline elements.
+
+There is a difference between the span tag and the div tag. The span tag is used with inline elements whilst the div tag is used with block-level content.
+
+The span element is called “generic” because the name of the tag itself doesn’t tell us anything about the contents of the element. In other words, “span” doesn’t mean anything to us. The opposite of a generic HTML element is a semantic HTML element, one whose name describes its purpose (e.g., <p> for paragraph, <button>, and <form>).
+
+<span> tags are powerful because they let us assign any global HTML attribute to a section of text or other inline page content. The most common attributes you’ll see used with span are the selectors id and class, used to apply styling to specific words. See the example below for some various examples.
+
+It’s also possible to apply CSS to HTML elements within <span> tags using the style attributes (also known as “inline CSS”). Inline CSS should be avoided, as it makes it more difficult to make page-wide style changes.
+
+Span can accommodate other attributes, too. For example, if you have a piece of text in a different language than the document, wrap this text in a <span> tag and add the lang attribute the tag to indicate the temporary language change. This helps search engine indexing and instructs text-to-speech programs to pronounce these words differently.
