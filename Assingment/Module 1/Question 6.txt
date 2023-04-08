@@ -1,8 +1,0 @@
-Question 6
-----------
-
--> The class attribute specifies one or more classnames for an element. 
-
--> The class attribute is mostly used to point to a class in a style sheet. 
-
--> However, it can also be used by a JavaScript (via the HTML DOM) to make changes to HTML elements with a specified class.
