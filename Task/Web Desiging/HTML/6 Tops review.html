@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tops Review</title>
+  <style>
+    body{
+      
+      background-color: rgb(224, 241, 255);
+    }
+.drop-zone {
+  max-width: 200px;
+  height: 200px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 4px dashed #009578;
+  border-radius: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+
+    <center>
+ <form action="" style="border: 2px solid black; width: 550px;">
+  
+  <h2 <b> Upload Review </b> </h2> <hr>
+<h4 style="color: red;">Please Note</h5>
+  <p>1.Please upload your screenshot of Google or Facebook review</p>
+  <p>2.if wrong image uploaded you will not be rewarded.</p> 
+ 
+    <div class="drop-zone">
+    <span class="drop-zone__prompt">Drop file here or click to upload</span>
+    <input type="file" name="myFile" class="drop-zone__input">
+    
+  </div>
+
+  <script src="./src/main.js"></script>
+  </div> <br>
+  <p>Review from*</p>
+  <select name="no" id="">
+    <option value="select">--select--</option>
+    <option value="1">1 STAR</option>
+    <option value="2">2 STAR</option>
+    <option value="3">3 STAR</option>
+    <option value="4">4 STAR</option>
+    <option value="1">5 STAR</option>
+</select>
+<p>Remark</p>
+<textarea name="" id="" cols="30" rows="10"> Type your remark</textarea><br>
+<input type="button" value="submit" style="background-color: rgb(135, 135, 233);;">
+</center>
+</form>
+</body>
+</html>
