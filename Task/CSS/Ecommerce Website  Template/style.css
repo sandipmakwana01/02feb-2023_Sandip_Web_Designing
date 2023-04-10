@@ -69,3 +69,29 @@ p{
 .header{
     background: radial-gradient(#fff,#eeabab);
 }
+.small-container{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 1080px;
+    padding-top: 30px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 30px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
