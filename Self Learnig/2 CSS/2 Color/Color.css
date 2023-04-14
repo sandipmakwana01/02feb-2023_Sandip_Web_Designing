@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background-color: red;
+    color: aqua;
+}
+.green{
+    background-color: green;
+    color: white;
+}
+/* Type of Color Values 
+    -> rgb(00,00,00); [Red Green Blue]
+    -> rgba(00,00,00,0to1); [Red Green Blue Alpha]
+    -> #ff7180; [Hex Code]
+    -> hsl(00%,00%,00%); [Hue Saturation Lightness]
+*/
