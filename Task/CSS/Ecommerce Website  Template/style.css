@@ -95,3 +95,15 @@ p{
 .col-4:hover{
     transform: translateY(-10px);
 }
+.offer{
+    background: radial-gradient(#fff,#eeabab);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 .offer-img{
+    padding: 50px;
+
+}
+small{
+    color: #555;
+}
