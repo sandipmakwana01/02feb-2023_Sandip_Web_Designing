@@ -1,0 +1,36 @@
+/* Container for the flip transform */
+.flip-container {
+    perspective: 1000px;
+  }
+  
+  /* The flipper div, which contains the front and back divs */
+  .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+  
+  /* The front and back divs */
+  .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* The front div */
+  .front {
+    z-index: 2;
+    transform: rotateY(0deg);
+  }
+  
+  /* The back div */
+  .back {
+    transform: rotateY(180deg);
+  }
+  
+  /* Hover state for the flip transform */
+  .flip-container:hover .flipper {
+    transform: rotateY(180deg);
+  }
+  
