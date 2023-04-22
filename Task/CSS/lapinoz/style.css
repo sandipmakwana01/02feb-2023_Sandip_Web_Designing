@@ -8,7 +8,6 @@
 /*--------------------------NAVIGATION PART/1---------------------------*/
 .navbar{
     align-items: center;
-    padding: 12px;
     display:flex;
     background-color: white;
     width: 100%;
@@ -16,6 +15,7 @@
     z-index: 3;
     top: 0;
     left: 0;
+    box-shadow: 0px 0px 20px black;
 }
 nav{
     flex: 1;
@@ -27,8 +27,8 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    margin-right: 20px;
-    padding: 18px;
+    margin-right: 0px;
+    padding: 0px;
 }
 nav ul li input{
     background-color: green;
@@ -38,6 +38,7 @@ nav ul li input{
     border: transparent;
 }
 li a{
+    margin: 10px;
     text-decoration: none;
     color: green;
     font-family: cursive;
@@ -45,29 +46,25 @@ li a{
 
 /*--------------------------NAVIGATION PART/2---------------------------*/
 .dropdown{
+    /* background-color: aqua; */
     display: none;
 }
-.dropdown ul li a{
-    color: #2bab0d;
-}
+
 nav ul li a:hover{
     color: white;
+    background-color: green;
+    border-radius: 9px;
 }
-nav ul li:hover{
-    background: #2bab0d;
-    border-radius: 30px;
-    margin: auto;
-    padding: auto;
 
-}
+
 nav ul li:hover .dropdown{
     position: absolute;
-    margin-top: 15px;
-    background: white;
+    margin-top: 0px;
+    background: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 nav ul li:hover .dropdown ul li{
     display:list-item;
@@ -77,34 +74,40 @@ nav ul li:hover .dropdown ul li{
     
 }
 
-/*--------------------------SLIDER PART---------------------------*/   
+/*--------------------------SLIDER PART---------------------------*/ 
+.slide{
+    width: 100%;
+    display: flex;
+}  
 .slider-container{
     position: relative;
     margin: auto;
-    width: auto;
-    top: 100px;
+    width: 100%;
+    top: 70px;
     z-index: 0;
-    display: flex;
 }
 .slider-item{
     position:absolute;
-    flex-grow: 2;
+    width: 100%;
 }
-
+.slider-item img{
+    width: 100%;
+}
 /*------------------------BEST SELLERS CONTAINER PART/1------------------------*/
 .small-container{
     margin-top: 125px;
-    background-color: #94f37f;
+    /* background-color: #94f37f; */
 }
 .row{
-    background-color: aqua;
+    /* background-color: aqua; */
     float: left;
     margin: 5px;
     margin-left: 180px;
 }
 .col-4{
+    box-shadow:  0px 0px 15px black;
     float: right;
-    background-color: rgb(8, 179, 68);
+    background-color:transparent;
     padding: 0px;
     margin: 15px;
 }
@@ -120,11 +123,15 @@ nav ul li:hover .dropdown ul li{
 .flip img{
     width: 200px;
     height: 200px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 30px;
 }
-span{
+.col-4 span {
     margin-left: 170px;
-    background-color: blue;
+    color: white;
+    background-color: red;
 }
+
 
 /*------------------------BEST SELLERS CONTAINER PART/3------------------------*/
 
@@ -139,12 +146,18 @@ span{
     opacity: 0;
     z-index: 2;
     transition: 1s;
+    text-align: center;
 }
 .cart{
     text-decoration: none;
     transition: 1s;
 }
-
+h4,p{
+    text-align: center;
+}
+.row a{
+    margin-left: 50px;
+}
 /*------------------------BEST SELLERS CONTAINER PART/4------------------------*/
 .col-4:hover .flip {
     transform: rotateY(180deg);
