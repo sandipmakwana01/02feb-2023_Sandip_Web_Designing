@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(255, 255, 255);
+            margin-top: 20%;
+            margin-left: 30%;
+        }
+        div{
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+            border-radius: 50%;
+            display: inline-block;
+            animation-name:animate;
+            animation-duration:2s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes animate{
+            0%{
+                background-color: aqua;
+                transform: scale(0.2);
+            }
+            40%{
+                background-color: rgb(58, 213, 252);
+                transform: scale(1);
+            }
+            60%{
+                background-color: blue;
+                transform: scale(1);
+            }
+            100%{
+                background-color: aqua;
+                transform: scale(0.2);
+            }
+        }
+        .div1{
+            animation-delay: 0s;
+        }
+        .div2{
+            animation-delay: 0.2s;
+        }
+        .div3{
+            animation-delay: 0.4s;
+        }
+        .div4{
+            animation-delay: 0.6s;
+        }
+        .div5{
+            animation-delay: 0.8s;
+        }
+        .div6{
+            animation-delay: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <div class="div5"></div>
+    <div class="div6"></div>
+</body>
+</html>
