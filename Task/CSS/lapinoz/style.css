@@ -240,6 +240,8 @@ h4{
 }
 
 
+/*------------------------FOOTER PART/1------------------------*/
+
 .footer{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #00572d;
@@ -271,6 +273,8 @@ h4{
     margin: 10px;
     margin-left: 30px;
 }
+
+/*------------------------FOOTER PART/2------------------------*/
 .methods {
     margin-left: 130px;
 }
@@ -286,7 +290,6 @@ h4{
 
 }
 .container1 li{
-    /* text-decoration: none; */
     margin: 7px;
     list-style: none;
     color:white;
@@ -294,7 +297,6 @@ h4{
 .methods img{
     height: 30px;
     margin: 2px;
-    
 }
 .methods h3{
     margin: 10px;
@@ -328,4 +330,16 @@ h4{
     margin-top: 10px;
     color: #00572d;
     margin-left: -7px;
+}
+
+
+/*------------------------RESPONSIVE BAR------------------------*/
+.fa{
+    color: green;
+    font-size: 25px;
+    cursor: pointer;
+    left: 225px;
+}
+#click{
+    display: none;
 }

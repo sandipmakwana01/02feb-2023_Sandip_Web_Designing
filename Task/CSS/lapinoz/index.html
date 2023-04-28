@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
     <script>
@@ -20,6 +22,8 @@
             // $('.slider').cyclle('scroll');
         })
     </script>
+
+    <link rel="stylesheet" href="media.css">
     
 </head>
 <body>
@@ -28,13 +32,14 @@
 
     <div class="header">
             <div class="navbar">
-               <div class="logo">
+                <div class="logo">
                     <img src="images/lapinoz-logo.png" width="200px" alt="">
-               </div>
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click"><span class="fa fa-bars"></span></label>
                <nav>
                     <ul>
                         <li><a href=""> Home</a></li>
-
                         <li><a href="">Order Online</a>
                             <div class="dropdown">
                                 <div class="col-1">
@@ -51,7 +56,6 @@
                                 </div>
                             </div>
                         </li>
-
                         <li><a href="">Store Locator</a>
                             <div class="dropdown">
                                 <div class="col-1">
