@@ -1,0 +1,10 @@
+div{
+    width : 500px ;
+    border : solid 3px ;
+    text-transform:uppercase;
+    /* text-align: justify; */
+    /* text-align-last :right ; */
+    text-indent:20px;
+    word-spacing:5px;
+    letter-spacing:8px;
+}

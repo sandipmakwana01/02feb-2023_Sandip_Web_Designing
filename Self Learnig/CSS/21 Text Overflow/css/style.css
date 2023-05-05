@@ -1,0 +1,9 @@
+div{
+    width: 200px;
+    border: 2px solid;
+
+    white-space: nowrap;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    text-overflow: "--";
+}

@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    position: absolute;
+    z-index: 0;
+    top: 100px;
+    left: 100px;
+    background: yellow;
+}
+.box2{
+    position: absolute;
+    z-index: 0;
+    top: 150px;
+    left: 150px;
+    background: rgb(0, 255, 98);
+}
+.box3{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: -3;
+    background: rgb(0, 149, 255);
+}
+.box4{
+    z-index: 2;
+    position:absolute;
+    top: 250px;
+    left: 250px;
+    background: rgb(255, 0, 0);
+}

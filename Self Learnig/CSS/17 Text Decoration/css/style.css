@@ -1,0 +1,7 @@
+div{
+    width:50%;
+    border:2px solid red;
+    text-decoration-line:line-through;
+    text-decoration-color:red;
+    text-decoration-style:wavy;
+}

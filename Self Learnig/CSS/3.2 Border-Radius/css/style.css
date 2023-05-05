@@ -1,0 +1,10 @@
+div{
+    border: 20px solid black;
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+    border-bottom: 5px solid yellow;
+    border-top-left-radius:100%;
+    border-bottom-left-radius:100%;
+    
+}

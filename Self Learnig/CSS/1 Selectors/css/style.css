@@ -1,0 +1,24 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* h1 Element Selector */
+h1{
+    background-color: #da1e1e;
+}
+/* Element Selector and Group Selector */
+p,h2{
+    background-color:aqua;
+    border: solid;
+}
+/* id Selector */
+#first{
+    background: purple;
+}
+/* class Selector */
+.second{
+    background-color: black;
+    color: white;
+}
+/* This is a Comment in CSS */

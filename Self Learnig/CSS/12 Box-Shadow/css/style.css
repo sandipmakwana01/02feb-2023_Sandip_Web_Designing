@@ -1,0 +1,6 @@
+div{
+    height:300px;
+    width:300px;
+    border: 2px solid;
+    box-shadow: -50px -50px 10px 10px red inset,60px 60px 5px 5px yellow;
+}

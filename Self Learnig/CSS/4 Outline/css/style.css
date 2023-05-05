@@ -1,0 +1,12 @@
+div{
+    border: 20px solid black;
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+    outline: 10px double aqua;
+    outline-offset: 30px;
+    border-bottom: 5px solid yellow;
+    border-top-left-radius:100%;
+    border-bottom-right-radius:100%;
+    
+}

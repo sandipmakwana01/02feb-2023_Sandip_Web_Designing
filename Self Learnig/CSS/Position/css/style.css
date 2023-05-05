@@ -1,0 +1,7 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background: yellow;
+    position: sticky;
+    top: 200px;
+}

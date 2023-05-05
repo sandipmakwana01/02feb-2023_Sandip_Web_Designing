@@ -1,0 +1,115 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 60px;
+    background: crimson;
+    position: fixed;
+    z-index: 1;
+}
+#menubar{
+    float: left;
+}
+#logo{
+    float: left;
+}
+#menu{
+    float: right;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+ li{
+    display: inline;
+}
+#slider{
+    margin: 0;
+    padding: 0;
+    top: 60px;
+    position: relative;
+    width: 100%;
+    background: lightsalmon;
+}
+#content{
+    margin: auto;
+    padding: 0;
+    top: 60px;
+    position: relative;
+    width: 80%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:150px 150px 150px 150px;
+
+    grid-gap:10px;
+    
+}
+.items1{
+    background-color: lightblue;
+}
+.items2{
+    background-color: lightcoral;
+}
+.items3{
+    background-color: lightcyan;
+}
+.items4{
+    background-color: lightgoldenrodyellow;
+}
+.items5{
+    background-color: lightgray;
+}
+.items6{
+    background-color: lightgreen;
+}
+.items7{
+    background-color: lightpink;
+}
+.items8{
+    background-color: lightsalmon;
+}
+.items9{
+    background-color: lightseagreen;
+}
+.items10{
+    background-color: lightskyblue;
+}
+.items11{
+    background-color: lightslategray;
+}
+.items12{
+    background-color:mediumaquamarine;
+}
+.items13{
+    background-color: mediumseagreen;
+}
+.items14{
+    background-color: mediumorchid;
+}
+.items15{
+    background-color: mediumpurple;
+}
+.items16{
+    background-color: mediumturquoise;
+}
+
+#footer{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:60px;
+    width: 100%;
+    background: crimson;
+}

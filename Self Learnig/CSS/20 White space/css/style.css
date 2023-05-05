@@ -1,0 +1,9 @@
+div{
+    width: 30%;
+    border:5px solid red;
+    /* white-space:break-spaces; */
+    white-space:nowrap;
+    white-space:pre;
+    /* white-space:pre-line; */
+    white-space:pre-wrap;
+}

@@ -1,0 +1,31 @@
+.border{
+    height:500px;
+    width: 500px;
+    background-color:aqua;
+    border:solid;   
+    
+    /* The Border-width property */
+    /* border-width:50px 20px; */
+
+    /* The Border-style property */
+    /* border-style:solid; */
+    /* border-style:dashed;  */
+    /* border-style:dotted; */
+    /* border-style:groove; */
+    /* border-style:inset; */
+    /* border-style:outset; */
+    /* border-style:ridge; */
+    /* border-style:none; */
+    /* border-style:dashed dotted groove inset; mix property */
+
+    /* The Border-color property */
+    border-color:brown;
+
+    /* The Border shorthand */
+    /* border: 50px dotted green; */
+
+    /* The Bordr side */
+    /* border-top: dotted 30px; */
+    /* border-right: solid 60px; */
+
+}

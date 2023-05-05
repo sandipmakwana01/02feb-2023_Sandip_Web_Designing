@@ -1,0 +1,8 @@
+div{
+    width:50%;
+    border:20px solid lavender;
+    font-weight:600;
+    font-size: 70px;
+    color: rgb(179, 255, 0);
+    text-shadow:60px 20px 5px rgb(226, 22, 22),80px -20px 5px black;
+}
