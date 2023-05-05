@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*--------------------------NAVIGATION PART/1---------------------------*/
+.navbar{
+    align-items: center;
+    display:flex;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 20px black;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 0px;
+    padding: 0px;
+}
+nav ul li input{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: transparent;
+}
+li a{
+    margin: 10px;
+    text-decoration: none;
+    color: green;
+    font-family: cursive;
+}
+
+/*--------------------------NAVIGATION PART/2---------------------------*/
+.dropdown{
+    display: none;
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: green;
+    border-radius: 9px;
+}
+
+
+nav ul li:hover .dropdown{
+    position: absolute;
+    margin-top: 0px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul li:hover .dropdown ul li{
+    display:list-item;
+    margin: 0;
+    text-align: left;
+    top: 0;
+    
+}
+
+/*--------------------------SLIDER PART---------------------------*/ 
+.slider {
+    width: 100%;
+    position: relative;
+    top: 70px;
+  }
+.slide{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    z-index: 0;
+}
+.slider-item{
+    position:absolute;
+    width: 100%;
+}
+.slider-item img{
+    width: 100%;
+    filter: brightness(40%);
+}
+.slider-content{
+    color: white;
+    top: 10%;
+    left: 25%;
+    position: absolute;
+    text-align: center;
+    font-family:monospace ;
+}
+.slider-content .con1{
+        left: 25;
+}
+.slider-content h1{
+    text-shadow: 0px 0px 4px black;
+    font-size: 50px;
+}
+.slider-row h1{
+    font-family:monospace ;
+    top: -60px;
+    left: 7%;
+    color: white;
+    position: absolute;
+    text-shadow: 0px 0px 4px black;
+    font-size: 30px;
+}
+.selecter{
+    position: absolute;
+    height: 60px;
+    top: 50%;
+    left: 25%;
+    border-radius: 50px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+}
+select{
+    border-radius: 50px;
+    margin: 0px;
+    padding: 20px;
+    width: 270px;
+    border: transparent;
+    background-color: white;
+    font-size: 15px;
+}
+.option2{
+    margin-left: 30px;
+}
+.slider-row h2{
+    font-family:monospace ;
+    top: 20%;
+    left: 5%;
+    color: white;
+    position: relative;
+    text-shadow: 0px 0px 4px black;
+    font-size: 25px;
+}
+.slider-row a{
+    background-color:black;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 110px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+/*------------------------BEST SELLERS CONTAINER PART/1------------------------*/
+.small-container{
+    position: relative;
+    top: 70px;
+}
+.row{
+    float: left;
+    margin: 5px;
+    margin-left: 180px;
+}
+.col-4{
+    box-shadow:  0px 0px 15px black;
+    float: right;
+    background-color:transparent;
+    padding: 0px;
+    margin: 15px;
+}
+
+/*------------------------BEST SELLERS CONTAINER PART/2------------------------*/
+.title{
+    text-align: center;
+    /* position: relative; */
+    margin: 20px;
+    margin-top: 0px;
+    color: #555;
+}
+.flip img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 30px;
+}
+.col-4 span {
+    margin-left: 170px;
+    color: white;
+    background-color: red;
+}
+
+
+/*------------------------BEST SELLERS CONTAINER PART/3------------------------*/
+
+.flip{
+    transition: 0.6s;
+}
+.view{
+    transition: 1s;
+    position: relative;
+    z-index: 2;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+.cart{
+    transition: 1s;
+    text-decoration: none;
+}
+h4{
+    text-align: center;
+}
+.row p{
+    text-align:center ;
+}
+.row a{
+    margin-left: 50px;
+}
+/*------------------------BEST SELLERS CONTAINER PART/4------------------------*/
+.col-4:hover .flip {
+    transform: rotateY(180deg);
+}
+.col-4:hover  .view{
+    opacity: 1;
+    top: 200px;
+}
+.view:hover{
+    background: aqua;
+}
+.cart:hover{
+    background: aqua;
+}
+
+
+/*------------------------FOOTER PART/1------------------------*/
+
+.footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #00572d;
+    width: 100%;
+    height: 200px;
+    top: 1070px;
+    position: relative;
+}
+.footer-container1{
+    background-color: #00572d;
+    height: 90%;
+    display: flex;
+    margin: 0px;
+    position:absolute;
+}
+.footer-container2{
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40px;
+    top: 170px;
+    position: absolute;
+    display: flex;
+}
+.container1{ 
+    height: 180px;
+    width: 200px;
+    background-color: transparent;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+/*------------------------FOOTER PART/2------------------------*/
+.methods {
+    margin-left: 130px;
+}
+.contact-us{
+    margin-left: 130px;
+}
+.follow-us{
+    margin-left: 70px;
+}
+.links h3{
+    color: white;
+    margin: 10px;
+
+}
+.container1 li{
+    margin: 7px;
+    list-style: none;
+    color:white;
+}
+.methods img{
+    height: 30px;
+    margin: 2px;
+}
+.methods h3{
+    margin: 10px;
+    color: white;
+}
+.method1{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.method2{
+    margin-left: 5px;
+}
+.contact-us h3{
+    color: white;
+    margin: 10px;
+}
+.contact-us a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.follow-us{
+    margin: 20px;
+    color: white;
+}
+.footer-container2 img{
+    height: 20px;
+    margin: 10px;
+}
+.footer-container2 p{
+    margin-top: 10px;
+    color: #00572d;
+    margin-left: -7px;
+}
+
+
+/*------------------------RESPONSIVE BAR------------------------*/
+.fa{
+    color: green;
+    font-size: 25px;
+    cursor: pointer;
+    left: 225px;
+}
+#click{
+    display: none;
+}

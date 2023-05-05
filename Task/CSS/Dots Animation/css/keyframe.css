@@ -1,0 +1,18 @@
+@keyframes animate{
+    0%{
+        background-color: aqua;
+        transform: scale(0.2);
+    }
+    40%{
+        background-color: rgb(58, 213, 252);
+        transform: scale(1);
+    }
+    60%{
+        background-color: blue;
+        transform: scale(1);
+    }
+    100%{
+        background-color: aqua;
+        transform: scale(0.2);
+    }
+}
