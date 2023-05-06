@@ -1,5 +1,5 @@
 $(document).ready(function()
         {
-            $('.slides').cycle('scrollLeft');
+            $('#slider').cycle('scrollLeft');
             // $('.slider').cyclle('scroll');
         })

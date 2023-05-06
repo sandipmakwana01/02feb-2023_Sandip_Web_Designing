@@ -4,14 +4,21 @@
     margin: 0;
     padding: 0;
 }
+
 #warraper{
     display:flex;
     flex-direction:column;
 }
+/*_________________________________________HEADER START_____________________________________________*/
 #header {
+    /* background: white; */
+    width: 100%;
     display:flex;
     align-items: center;
     min-height: 75px;
+   position: fixed;
+   top: 0;
+   z-index: 1;
 }
 #header ul{
     list-style: none;
@@ -25,19 +32,95 @@
     width: 150px;
     margin-top: 15px;
 }
+.menu{
+    margin: 0 0 0 auto;
+}
+.menu li{
+    margin: 0 20px;
+}
+.login{
+    margin:0 30px ;
+}
+/*_________________________________________HEADER END_____________________________________________*/
 
+/*_________________________________________SLIDER START_____________________________________________*/
+#slider{
+    z-index: 0;
+    position: relative;
+    top: 75px;
+}
 .slide img{
     width: 100%;
 }
-.menu{
-    margin: 0 10px 0 auto;
-}
+/*_________________________________________SLIDER END_____________________________________________*/
 
-.menu li{
-    margin: 0 25px 0 0;
-    padding-left: 15px;
+/*_________________________________________CONTENT START_____________________________________________*/
+#content{
+    z-index: 0;
+    position: relative;
+    top: 80px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows:50px repeat(3);
+    grid-gap:20px;
 }
-.login li{
-    margin: 0 40px 0 0;
+#content h1{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    display: grid;
+    justify-content: center;
 }
+#content img{
+    width: 100%;
+}
+.flip:hover img{
+    transform: rotateY(180deg);
+}
+.flip:hover .view{
+    opacity: 1;
+    top: 240px;
+}
+.view{
+    background-color: black;
+    transition: 1s;
+    position: relative;
+    z-index: 2;
+    top: -18px;
+    opacity: 0;
+    text-align: center;
+}
+.flip span{
+    display: grid;
+    justify-content: end;
+}
+.flip a{
+    color: white;
+    text-decoration: none;
+}
+.flip img{
+    transition: 1s;
+}
+.not-flip{
+    text-align: center;
+}
+/*_________________________________________CONTENT END_____________________________________________*/
+
+/*_________________________________________FOOTER START_____________________________________________*/
+#footer{
+    position: relative;
+    top: 80px;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.f-con{
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+/*_________________________________________FOOTER END_____________________________________________*/
+
 
