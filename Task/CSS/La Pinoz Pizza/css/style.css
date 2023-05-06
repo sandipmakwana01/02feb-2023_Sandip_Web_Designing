@@ -7,11 +7,12 @@
 
 #warraper{
     display:flex;
+    
     flex-direction:column;
 }
 /*_________________________________________HEADER START_____________________________________________*/
 #header {
-    /* background: white; */
+    background: white;
     width: 100%;
     display:flex;
     align-items: center;
@@ -111,16 +112,68 @@
 /*_________________________________________FOOTER START_____________________________________________*/
 #footer{
     position: relative;
-    top: 80px;
-    display: flex;
+    top: 90px;
     padding: 10px;
+    margin:5px 40px;
     width: 100%;
+    display: flex;
     flex-wrap: wrap;
 }
-.f-con{
+.like{
+    width: 50%;
+}
+.copyright{
+    width: 50%;
+}
+.usefullinks{
     flex-grow: 1;
     flex-basis: 200px;
 }
+.paymentmethods{
+    /* border: solid black; */
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.paymentmethods h3{
+    /* border: solid black; */
+    width: 100%;
+}
+.paymentmethods img{
+    width: 80px;
+    /* flex-grow: 1; */
+    /* flex-basis: 60px; */
+}
+.contactus{
+    width: 210px;
+    word-wrap: break-word;
+    flex-grow: 1;
+}
+.folloeus{
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+/* .paymentmethods{
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+} */
+#last{
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+#last .like{
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+#last .copyright{
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
 /*_________________________________________FOOTER END_____________________________________________*/
 
 
