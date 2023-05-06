@@ -1,13 +1,12 @@
 *{
     box-sizing:border-box;
-    /* border:solid 1px; */
+    border:solid 1px;
     margin: 0;
     padding: 0;
 }
 
 #warraper{
     display:flex;
-    
     flex-direction:column;
 }
 /*_________________________________________HEADER START_____________________________________________*/
@@ -24,6 +23,7 @@
 #header ul{
     list-style: none;
     display:flex;
+   
 }
 #header a{
     text-decoration: none;
@@ -49,6 +49,7 @@
     z-index: 0;
     position: relative;
     top: 75px;
+    width: 100%;
 }
 .slide img{
     width: 100%;
@@ -114,34 +115,17 @@
     position: relative;
     top: 90px;
     padding: 10px;
-    margin:5px 40px;
+    margin:5px 0;
     width: 100%;
+    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
 }
-.like{
-    width: 50%;
-}
-.copyright{
-    width: 50%;
-}
+
+
 .usefullinks{
     flex-grow: 1;
     flex-basis: 200px;
-}
-.paymentmethods{
-    /* border: solid black; */
-    flex-grow: 1;
-    flex-basis: 200px;
-}
-.paymentmethods h3{
-    /* border: solid black; */
-    width: 100%;
-}
-.paymentmethods img{
-    width: 80px;
-    /* flex-grow: 1; */
-    /* flex-basis: 60px; */
 }
 .contactus{
     width: 210px;
@@ -152,11 +136,21 @@
     flex-grow: 1;
     flex-basis: 200px;
 }
-/* .paymentmethods{
-    border: solid black;
-    display: flex;
-    flex-wrap: wrap;
-} */
+.paymentmethods{
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.paymentmethods h3{
+    width: 100%;
+}
+.paymentmethods img{
+    width: 25%;
+}
+.payment{
+    width: 80%;
+}
+
+
 #last{
     position: relative;
     top: 80px;
@@ -168,6 +162,7 @@
 #last .like{
     flex-basis: 300px;
     flex-grow: 1;
+    /* align-self: end; */
 }
 #last .copyright{
     flex-basis: 300px;
