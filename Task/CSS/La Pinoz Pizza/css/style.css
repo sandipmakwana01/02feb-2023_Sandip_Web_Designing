@@ -131,8 +131,8 @@
     position: relative;
     top: 90px;
     padding: 10px;
-    margin:5px 0;
-    width: 100%;
+    margin:5px auto;
+    width: 95%;
     /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
