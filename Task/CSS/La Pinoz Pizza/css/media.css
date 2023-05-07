@@ -1,0 +1,37 @@
+@media screen and (max-width:480px) {   
+    .menu{
+        display: none;
+    }
+    .fontawesome{
+        display: none;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+  
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    .fa-bars{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .logo{
+        margin: 0 20px;
+    }
+}
+@media screen and (min-width:769px)  {
+    .fa-bars{
+        display: none;
+    }
+    .fontawesome{
+        display: none;
+    }
+    .logo{
+        margin: 0 0 0 20px;
+    }
+}

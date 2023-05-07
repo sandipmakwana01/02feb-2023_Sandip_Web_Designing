@@ -1,6 +1,6 @@
 *{
     box-sizing:border-box;
-    border:solid 1px;
+    /* border:solid 1px; */
     margin: 0;
     padding: 0;
 }
@@ -41,6 +41,22 @@
 }
 .login{
     margin:0 30px ;
+}
+
+
+
+
+#click{
+    display: none;
+}
+.fa-bars{
+    margin:0 25px;
+}
+.fontawesome{
+    margin: 0 0 0 auto;
+}
+.fontawesome li{
+    margin: 0  20px;
 }
 /*_________________________________________HEADER END_____________________________________________*/
 
