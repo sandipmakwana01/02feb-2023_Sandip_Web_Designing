@@ -105,6 +105,9 @@
 
 }
 @media screen and (min-width:321px) and (max-width:480px){
+    .flip:hover .view{
+        top:83%;
+    }
     #content{
         width: 80%;
         grid-template-columns: 1fr 1fr;
@@ -166,6 +169,7 @@
         }
 }
 @media screen and (min-width:481px) and (max-width:600px){
+  
     #content{
         width: 80%;
         grid-template-columns: 1fr 1fr 1fr;
@@ -229,8 +233,10 @@
 }
 @media screen and (min-width:601px) and (max-width:768px){
     /*4 column*/
+  
 }
 @media screen and (min-width:769px) and (max-width:1024px){
+ 
     #content{
         width: 95%;
         grid-template-columns: repeat(5,1fr);
@@ -292,6 +298,7 @@
         }
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
+   
     #content{
         width: 95%;
         grid-template-columns: repeat(6,1fr);
@@ -417,32 +424,40 @@
 /*_________________________________________CONTENT END_____________________________________________*/
 
 /*_________________________________________QUICK VIEW START_____________________________________________*/
-@media screen and (max-width:200px) {
+@media screen and (min-width:810px) and (max-width:940px){
     .flip:hover .view{
-        top:100px;
+        top:80%;
     }
 }
-@media screen and (min-width:201px) and  (max-width:250px) {
+@media screen and (min-width:941px) and (max-width:1000px){
     .flip:hover .view{
-        top:100px;
+        top:80%;
     }
 }
-@media screen and (min-width:251px) and  (max-width:260px) {
+@media screen and (min-width:1001px) and (max-width:1100px){
     .flip:hover .view{
-        top:106px;
+        top:80%;
     }
 }
-@media screen and (min-width:601px) and  (max-width:800px) {
-    
+@media screen and (min-width:1101px) and (max-width:1200px){
+    .flip:hover .view{
+        top:80%;
+    }
 }
-@media screen and (min-width:801px) and  (max-width:1000px) {
-    
+@media screen and (min-width:1201px) and (max-width:1300px){
+    .flip:hover .view{
+        top:84%;
+    }
 }
-@media screen and (min-width:1001px) and  (max-width:1200px) {
-    
+@media screen and (min-width:1301px) and (max-width:1400px){
+    .flip:hover .view{
+        top:83%;
+    }
 }
-@media screen and (min-width:1201) {
-    
+@media screen and (min-width:1401px) and (max-width:1500px){
+    .flip:hover .view{
+        top:84%;
+    }
 }
 /*_________________________________________QUICK VIEW END_____________________________________________*/
 
