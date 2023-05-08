@@ -416,6 +416,36 @@
 }
 /*_________________________________________CONTENT END_____________________________________________*/
 
+/*_________________________________________QUICK VIEW START_____________________________________________*/
+@media screen and (max-width:200px) {
+    .flip:hover .view{
+        top:100px;
+    }
+}
+@media screen and (min-width:201px) and  (max-width:250px) {
+    .flip:hover .view{
+        top:100px;
+    }
+}
+@media screen and (min-width:251px) and  (max-width:260px) {
+    .flip:hover .view{
+        top:106px;
+    }
+}
+@media screen and (min-width:601px) and  (max-width:800px) {
+    
+}
+@media screen and (min-width:801px) and  (max-width:1000px) {
+    
+}
+@media screen and (min-width:1001px) and  (max-width:1200px) {
+    
+}
+@media screen and (min-width:1201) {
+    
+}
+/*_________________________________________QUICK VIEW END_____________________________________________*/
+
 /*_________________________________________FOOTER START_____________________________________________*/
 @media screen and (max-width:442px) {
     #footer{
