@@ -1,11 +1,9 @@
 .ans9{
-        background-repeat: no-repeat;
-        background-size: cover;
         background-attachment: fixed;
   }
 
 body{
-    width: 30%;
+    width: 20%;
     margin: auto;
     border: 2px solid;
     padding: 10px;
