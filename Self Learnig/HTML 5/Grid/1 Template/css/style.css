@@ -1,0 +1,31 @@
+#content{
+    /* width: 100px; */
+    /* height: 500px; */
+    background: lightblue;
+    /* margin: auto; */
+
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 40px 40px 60px;
+
+    /* grid-gap:5px; */
+}
+
+.items1{
+    background: lightcoral;
+}
+.items2{
+    background: lightcyan;
+}
+.items3{
+    background: lightgoldenrodyellow;
+}
+.items4{
+    background: lightgray;
+}
+.items5{
+    background: lightgreen;
+}
+.items6{
+    background: lightpink;
+}
